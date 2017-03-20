@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HXDropMenu_Example' do
+  pod 'HXDropMenu', :path => '../'
+
+  target 'HXDropMenu_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
