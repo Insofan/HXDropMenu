@@ -1,0 +1,19 @@
+PODS:
+  - HXDropMenu (0.1.0):
+    - Masonry
+  - Masonry (1.0.2)
+
+DEPENDENCIES:
+  - HXDropMenu (from `../`)
+
+EXTERNAL SOURCES:
+  HXDropMenu:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HXDropMenu: 6dba6bb3634f9ad6abdd7f6779582bda7a9fa3ff
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+
+PODFILE CHECKSUM: c76b8cf366039f6a9a8d59b1d90cfbba1aedd6d4
+
+COCOAPODS: 1.2.0
