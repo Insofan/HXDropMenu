@@ -9,21 +9,17 @@
 /* Begin PBXBuildFile section */
 		033C29AD3D9C2E26A3EDFEE55012B1F9 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 48356B7A9C05FCDA9BE6B548EE0E74C4 /* MASConstraintMaker.m */; };
 		0FE33509B34D7BCC18A5D2C762684D74 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = DBBBBA752E3C871ED5ACAF1B3A359A30 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11BCDF16729D7EF8E8E9E65A4BFB7D4E /* arrow@3x.png in Sources */ = {isa = PBXBuildFile; fileRef = 3D8ED66699F87DBFEBBBE406C23AE016 /* arrow@3x.png */; };
 		143C2BD5FB1E2F44040E0E132FF4427A /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 006A1775D2AC1E31AA580976C08B1E06 /* MASViewAttribute.m */; };
 		147406B206AB9BCD1563329463BDD75E /* HXButtonTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C16D06FE5DED03EDCEA5F30EDE4FB6D /* HXButtonTool.m */; };
 		17DE554CB35AC1BE72A4325AE546405B /* HXDropMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 56513248348CB99B9CBE6E740992568B /* HXDropMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18D7D61681DE8D38DE65D3ACC7350E9B /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = D3A3DD8AB4B3BAFE6DA64BFAC76405A7 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		20E4481160DD74BB3AD1343759199614 /* HXDropMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D95AA1C2BD22AD1FC5CCB3CBC52EF009 /* HXDropMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		251336C6777E5802C5D67345A00D24B5 /* Root.strings in Sources */ = {isa = PBXBuildFile; fileRef = 482013D950E158A5A349E649E87447A2 /* Root.strings */; };
 		2EBED4E6DC4BA48DDA29E101A17D754E /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = F47E8B292306889C83E0F91B90B9D4D2 /* MASViewConstraint.m */; };
-		383B3F33E68BEBA0C77716BB4F4E0351 /* Root.plist in Sources */ = {isa = PBXBuildFile; fileRef = 284962EF7DD47B228F6ADEAFDB244A89 /* Root.plist */; };
 		388CC8E2263E35ECA1ACD7E4AB4E9AE3 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = C3835E509F8928E05A269A70E36A0F9B /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		444710615AF193772AF2B5FBABC2160F /* HXColorTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 486A516376DE928B6697D35EA38CAA14 /* HXColorTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		46E50F92FE15DC768DE284FA8E632539 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C2A7FF49A01F03029D3D46B5A89A8FA /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4B03CDED0D8D66616C08D75481797034 /* Pods-HXDropMenu_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5B69A023C59FE68B83960554154F4015 /* Pods-HXDropMenu_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52E1FCF7AA03BF7AB6A8DD57E977D375 /* HXDropMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BD123CED398A05881ED9EB168BFA101 /* HXDropMenu.m */; };
-		543CDD64CBBE3695BE7FD8B3CBBBF8E5 /* arrow.png in Sources */ = {isa = PBXBuildFile; fileRef = 22E62D57ED390C264FDBCCFE744C6A35 /* arrow.png */; };
 		55C1F5C3311ACFE7DE5D96821B1C53DD /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F69A89756BC7027D327F28BA0BF6CE3 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5679F9BCF3549B3FA428D3AE947BEFC0 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B20026B4CFEF728F5F4729FD40F249A /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5CD85173189391FA1CB5928D62A5C923 /* HXColorTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA91C1C9D8F91FB6A5BB9D635F5DC2D /* HXColorTool.m */; };
@@ -47,12 +43,13 @@
 		A843019E099A8D61D80E97F112B43D07 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F811626E85594188DF623B3ABC5E5076 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		AAEBD6AA378A1D2D620E820ECDA3B955 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D6763ACD9E86568A2534E33B92A81D /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE9BAD865D9ABEB8F96D16F97CF9A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9A3FCE044F805F44733D26C30276A /* Foundation.framework */; };
+		AF06C6AB1E86DA0100F7D032 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AF06C6A91E86DA0100F7D032 /* .gitkeep */; };
 		AF6A5AFB13B4CEE0D70237EBC522E049 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = DAFE98B56AFB9C35410337918A6C773A /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AFCE34381E86E0A600AE9C98 /* HXDropMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AFCE34371E86E0A600AE9C98 /* HXDropMenu.bundle */; };
 		B6CF743AFE39318B411920FA5EF1BFF4 /* HXDropMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3458200D992579411FF8446BAC82E73 /* HXDropMenu-dummy.m */; };
 		C0981EF0177E72895540FD7CE48467D7 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 38D9A610FCF55E6DAD619770B2CFE1C3 /* MASCompositeConstraint.m */; };
 		C312FB551CF3AD8B5CD711964113FC64 /* HXDropMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A5DFBC99D24B6EB8D92FC5B14D5C35A /* HXDropMenu.bundle */; };
 		CEBBC0F416A3502ABB153DD141DA3E2B /* HXButtonTool.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C5858E516148FA27FF254F4943D0561 /* HXButtonTool.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF0727472CFC25BF2C1DD86183E4C33A /* arrow@2x.png in Sources */ = {isa = PBXBuildFile; fileRef = 5FBE03BA69CE2B1E13003E7B0B214798 /* arrow@2x.png */; };
 		D220A6FA505A72FC4C361F50FCDEE9E7 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 4303D85A4EF67C96F3D0CD4956F44D86 /* NSArray+MASAdditions.m */; };
 		D6EE9A1E27E41A9C6D2E00EDA0C9C147 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9A3FCE044F805F44733D26C30276A /* Foundation.framework */; };
 		E9F8323CB835C534A0831D0A670D4A0F /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = B25C2C38C80D5095DABA9B0AF088DCAE /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -116,14 +113,11 @@
 		1A1AE29F3033502ABF0AD2307F2D7E88 /* HXDropMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HXDropMenu.xcconfig; sourceTree = "<group>"; };
 		1BD123CED398A05881ED9EB168BFA101 /* HXDropMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = HXDropMenu.m; sourceTree = "<group>"; };
 		1C16D06FE5DED03EDCEA5F30EDE4FB6D /* HXButtonTool.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = HXButtonTool.m; path = HXTool/Classes/HXButtonTool.m; sourceTree = "<group>"; };
-		22E62D57ED390C264FDBCCFE744C6A35 /* arrow.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		25A529F0DFAB8EE790ADABD3465520E8 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
-		284962EF7DD47B228F6ADEAFDB244A89 /* Root.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Root.plist; sourceTree = "<group>"; };
 		2C2A7FF49A01F03029D3D46B5A89A8FA /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
 		32052062C975030934B558F7509C54E2 /* Pods-HXDropMenu_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HXDropMenu_Tests-dummy.m"; sourceTree = "<group>"; };
 		38D9A610FCF55E6DAD619770B2CFE1C3 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
 		3A5DFBC99D24B6EB8D92FC5B14D5C35A /* HXDropMenu.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HXDropMenu.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D8ED66699F87DBFEBBBE406C23AE016 /* arrow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "arrow@3x.png"; sourceTree = "<group>"; };
 		413DA626B41108E87C0B8EEDCCA6CD06 /* Pods-HXDropMenu_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HXDropMenu_Tests-resources.sh"; sourceTree = "<group>"; };
 		420E8A4A4FE511A262AF18A3D48BC100 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
 		4303D85A4EF67C96F3D0CD4956F44D86 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
@@ -131,7 +125,6 @@
 		44AC0CC39D65A0686ABF19F559D42751 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		463412EAA73DBCAAEFFD4194300E5368 /* Pods_HXDropMenu_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HXDropMenu_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48074BF38A86F580BBB63C5D35D1942B /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
-		482013D950E158A5A349E649E87447A2 /* Root.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = Root.strings; path = en.lproj/Root.strings; sourceTree = "<group>"; };
 		48356B7A9C05FCDA9BE6B548EE0E74C4 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		486A516376DE928B6697D35EA38CAA14 /* HXColorTool.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HXColorTool.h; path = HXTool/Classes/HXColorTool.h; sourceTree = "<group>"; };
 		49CA25D6FB2134E454AF7EE9582DAF51 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
@@ -145,7 +138,6 @@
 		5B55A59D605F309B2E2AE42AFDAFECF3 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		5B69A023C59FE68B83960554154F4015 /* Pods-HXDropMenu_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXDropMenu_Example-umbrella.h"; sourceTree = "<group>"; };
 		5F69A89756BC7027D327F28BA0BF6CE3 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
-		5FBE03BA69CE2B1E13003E7B0B214798 /* arrow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; path = "arrow@2x.png"; sourceTree = "<group>"; };
 		610241825334F3AA48B43C7B4287D430 /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		65D6763ACD9E86568A2534E33B92A81D /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
 		69F754CFFB40BAACF2688F3CC7B67E58 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
@@ -166,6 +158,8 @@
 		ACE6C341D8ED83C06EABEF1B8146A63D /* Pods-HXDropMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXDropMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AD70A3E6A4BB96D2A24F18EB4894F7C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE96FF3CBAE2DCC083E5741F540F0BB0 /* HXDropMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HXDropMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF06C6A91E86DA0100F7D032 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		AFCE34371E86E0A600AE9C98 /* HXDropMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HXDropMenu.bundle; sourceTree = "<group>"; };
 		B25C2C38C80D5095DABA9B0AF088DCAE /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
 		B2F1A1F5921BAFE99A254D01A5705A51 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3D9A3FCE044F805F44733D26C30276A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -257,19 +251,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		179ABFF252A4A6C80C2719D413117C62 /* HXDropMenu.bundle */ = {
-			isa = PBXGroup;
-			children = (
-				22E62D57ED390C264FDBCCFE744C6A35 /* arrow.png */,
-				5FBE03BA69CE2B1E13003E7B0B214798 /* arrow@2x.png */,
-				3D8ED66699F87DBFEBBBE406C23AE016 /* arrow@3x.png */,
-				284962EF7DD47B228F6ADEAFDB244A89 /* Root.plist */,
-				7E6A1EFF3B30FF69E3E86520EE8C6CF0 /* Root.strings */,
-			);
-			name = HXDropMenu.bundle;
-			path = Classes/HXDropMenu.bundle;
-			sourceTree = "<group>";
-		};
 		1D2D0B6049E3ED8BE697479BD9745589 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -313,7 +294,7 @@
 		3E88F0CA590BFAD4C5A1857366D143D8 /* HXDropMenu */ = {
 			isa = PBXGroup;
 			children = (
-				AFA00E9C1E86D96F00287F17 /* Assets */,
+				AF06C6A81E86DA0100F7D032 /* Assets */,
 				4AC58198990EB6B4BF1327756B5D5A3C /* Classes */,
 			);
 			path = HXDropMenu;
@@ -399,12 +380,13 @@
 			);
 			sourceTree = "<group>";
 		};
-		AFA00E9C1E86D96F00287F17 /* Assets */ = {
+		AF06C6A81E86DA0100F7D032 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
-				179ABFF252A4A6C80C2719D413117C62 /* HXDropMenu.bundle */,
+				AFCE34371E86E0A600AE9C98 /* HXDropMenu.bundle */,
+				AF06C6A91E86DA0100F7D032 /* .gitkeep */,
 			);
-			name = Assets;
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		B4F0BA4A38BC9D168D667B378E89C6D9 /* iOS */ = {
@@ -708,6 +690,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C312FB551CF3AD8B5CD711964113FC64 /* HXDropMenu.bundle in Resources */,
+				AFCE34381E86E0A600AE9C98 /* HXDropMenu.bundle in Resources */,
+				AF06C6AB1E86DA0100F7D032 /* .gitkeep in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -736,13 +720,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				543CDD64CBBE3695BE7FD8B3CBBBF8E5 /* arrow.png in Sources */,
-				CF0727472CFC25BF2C1DD86183E4C33A /* arrow@2x.png in Sources */,
-				11BCDF16729D7EF8E8E9E65A4BFB7D4E /* arrow@3x.png in Sources */,
 				B6CF743AFE39318B411920FA5EF1BFF4 /* HXDropMenu-dummy.m in Sources */,
 				52E1FCF7AA03BF7AB6A8DD57E977D375 /* HXDropMenu.m in Sources */,
-				383B3F33E68BEBA0C77716BB4F4E0351 /* Root.plist in Sources */,
-				251336C6777E5802C5D67345A00D24B5 /* Root.strings in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -813,18 +792,6 @@
 			targetProxy = ED0AC3AF5938852AF5645DD409534488 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		7E6A1EFF3B30FF69E3E86520EE8C6CF0 /* Root.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				482013D950E158A5A349E649E87447A2 /* Root.strings */,
-			);
-			name = Root.strings;
-			path = .;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		3F588605469DC135F7CA36066BB59607 /* Release */ = {

@@ -32,9 +32,9 @@ Drop menu framework.
 
   s.source_files = 'HXDropMenu/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'HXDropMenu' => ['HXDropMenu/Assets/*.png']
-  # }
+s.resource_bundles = {
+  'HXDropMenu' => ['HXDropMenu/Assets/*.png']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.frameworks = 'UIKit'

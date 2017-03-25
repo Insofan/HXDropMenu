@@ -315,9 +315,11 @@ static const CGFloat HXDropMenuAutoHideHeight = 44;
 - (UIImageView *)arrowImageView {
     //加载箭头图片
     if (!_arrowImageView) {
-        NSString * bundlePath = [[NSBundle mainBundle] pathForResource:@"HXDropMenu" ofType:@"bundle"];
-        NSString *imagePath = [bundlePath stringByAppendingPathComponent:@"arrow.png"];
-        UIImage *image = [UIImage imageWithContentsOfFile:imagePath];
+        NSString *bundlePath = [[NSBundle bundleForClass:[HXDropMenu class]]
+                                pathForResource:@"HXDropMenu" ofType:@"bundle"];
+        NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];
+        
+        UIImage *image = [UIImage imageNamed:@"arrow" inBundle:bundle compatibleWithTraitCollection:nil];
         _arrowImageView = [[UIImageView alloc] initWithImage:image];
     }
     return _arrowImageView;
