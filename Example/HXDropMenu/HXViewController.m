@@ -8,6 +8,7 @@
 
 #import "HXViewController.h"
 #import <HXDropMenu/HXDropMenu.h>
+//一个我自己很简单的工具库
 #import <HXTool/HXTool.h>
 
 @interface HXViewController ()
@@ -19,7 +20,19 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    self.view.backgroundColor = [UIColor greenColor];
+    // Do any additional setup after loading the view, typically from a nib.
+    //
+    [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRGBString:@"E53935"]];
+    NSArray *titles = @[@"First", @"Second", @"Third", @"Fourth", @"Fifth",@"Sixed", @"Seventh"];
+    HXDropMenu *menuView = [[HXDropMenu alloc] initWithFrame:CGRectMake(0, 0,100, 44) titles:titles];
+    
+    menuView.selectedAtIndex = ^(int index)
+    {
+        NSLog(@"选择 %@", titles[index]);
+    };
+    menuView.width = 400;
+    self.navigationItem.titleView = menuView;
 }
 
 - (void)didReceiveMemoryWarning
