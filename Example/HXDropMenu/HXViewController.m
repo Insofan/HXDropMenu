@@ -22,9 +22,9 @@
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor greenColor];
     // Do any additional setup after loading the view, typically from a nib.
-    //
+    //Color tool framework
     [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRGBString:@"E53935"]];
-    NSArray *titles = @[@"First", @"Second", @"Third", @"Fourth", @"Fifth",@"Sixed", @"Seventh"];
+    NSArray *titles = @[@"First", @"Second", @"Third", @"Fourth", @"Fifth",@"Sixed", @"Seventh", @"Eighth"];
     HXDropMenu *menuView = [[HXDropMenu alloc] initWithFrame:CGRectMake(0, 0,100, 44) titles:titles];
     
     menuView.selectedAtIndex = ^(int index)

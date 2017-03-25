@@ -43,6 +43,9 @@
 		A843019E099A8D61D80E97F112B43D07 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = F811626E85594188DF623B3ABC5E5076 /* NSLayoutConstraint+MASDebugAdditions.m */; };
 		AAEBD6AA378A1D2D620E820ECDA3B955 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 65D6763ACD9E86568A2534E33B92A81D /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AEE9BAD865D9ABEB8F96D16F97CF9A5A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B3D9A3FCE044F805F44733D26C30276A /* Foundation.framework */; };
+		AF064A671E86E28900834607 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = AF064A641E86E28900834607 /* arrow.png */; };
+		AF064A681E86E28900834607 /* arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF064A651E86E28900834607 /* arrow@2x.png */; };
+		AF064A691E86E28900834607 /* arrow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF064A661E86E28900834607 /* arrow@3x.png */; };
 		AF06C6AB1E86DA0100F7D032 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = AF06C6A91E86DA0100F7D032 /* .gitkeep */; };
 		AF6A5AFB13B4CEE0D70237EBC522E049 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = DAFE98B56AFB9C35410337918A6C773A /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AFCC7BC51E86E19F0030577B /* HXDropMenu.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AFCC7BC41E86E19F0030577B /* HXDropMenu.bundle */; };
@@ -158,6 +161,9 @@
 		ACE6C341D8ED83C06EABEF1B8146A63D /* Pods-HXDropMenu_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HXDropMenu_Tests-umbrella.h"; sourceTree = "<group>"; };
 		AD70A3E6A4BB96D2A24F18EB4894F7C9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AE96FF3CBAE2DCC083E5741F540F0BB0 /* HXDropMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HXDropMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF064A641E86E28900834607 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = arrow.png; path = HXDropMenu.bundle/arrow.png; sourceTree = "<group>"; };
+		AF064A651E86E28900834607 /* arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow@2x.png"; path = "HXDropMenu.bundle/arrow@2x.png"; sourceTree = "<group>"; };
+		AF064A661E86E28900834607 /* arrow@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "arrow@3x.png"; path = "HXDropMenu.bundle/arrow@3x.png"; sourceTree = "<group>"; };
 		AF06C6A91E86DA0100F7D032 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		AFCC7BC41E86E19F0030577B /* HXDropMenu.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HXDropMenu.bundle; sourceTree = "<group>"; };
 		B25C2C38C80D5095DABA9B0AF088DCAE /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
@@ -383,6 +389,9 @@
 		AF06C6A81E86DA0100F7D032 /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				AF064A641E86E28900834607 /* arrow.png */,
+				AF064A651E86E28900834607 /* arrow@2x.png */,
+				AF064A661E86E28900834607 /* arrow@3x.png */,
 				AFCC7BC41E86E19F0030577B /* HXDropMenu.bundle */,
 				AF06C6A91E86DA0100F7D032 /* .gitkeep */,
 			);
@@ -690,8 +699,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFCC7BC51E86E19F0030577B /* HXDropMenu.bundle in Resources */,
+				AF064A681E86E28900834607 /* arrow@2x.png in Resources */,
 				C312FB551CF3AD8B5CD711964113FC64 /* HXDropMenu.bundle in Resources */,
 				AF06C6AB1E86DA0100F7D032 /* .gitkeep in Resources */,
+				AF064A671E86E28900834607 /* arrow.png in Resources */,
+				AF064A691E86E28900834607 /* arrow@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
