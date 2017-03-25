@@ -1,0 +1,6 @@
+framework module HXTool {
+  umbrella header "HXTool-umbrella.h"
+
+  export *
+  module * { export * }
+}
