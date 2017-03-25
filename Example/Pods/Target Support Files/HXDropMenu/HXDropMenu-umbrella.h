@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "HXDropMenu.h"
 
 FOUNDATION_EXPORT double HXDropMenuVersionNumber;
 FOUNDATION_EXPORT const unsigned char HXDropMenuVersionString[];

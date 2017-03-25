@@ -1,19 +1,22 @@
 PODS:
   - HXDropMenu (0.1.0):
     - Masonry
+  - HXTool (0.1.0)
   - Masonry (1.0.2)
 
 DEPENDENCIES:
-  - HXDropMenu (from `../`)
+  - HXDropMenu (from `/Users/haixiao/Desktop/OCDevelopment/HXDropMenu`)
+  - HXTool
 
 EXTERNAL SOURCES:
   HXDropMenu:
-    :path: "../"
+    :path: "/Users/haixiao/Desktop/OCDevelopment/HXDropMenu"
 
 SPEC CHECKSUMS:
   HXDropMenu: 6dba6bb3634f9ad6abdd7f6779582bda7a9fa3ff
+  HXTool: 2f032c24355ffb175b32b0ba0dba719152a67a66
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
-PODFILE CHECKSUM: c76b8cf366039f6a9a8d59b1d90cfbba1aedd6d4
+PODFILE CHECKSUM: 5b73c47ffd5e1c8635c81bb064659feaf81567a9
 
 COCOAPODS: 1.2.0

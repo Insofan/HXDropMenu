@@ -7,6 +7,8 @@
 //
 
 #import "HXViewController.h"
+#import <HXDropMenu/HXDropMenu.h>
+#import <HXTool/HXTool.h>
 
 @interface HXViewController ()
 

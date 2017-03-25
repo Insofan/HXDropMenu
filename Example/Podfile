@@ -1,8 +1,8 @@
 use_frameworks!
 
 target 'HXDropMenu_Example' do
-  pod 'HXDropMenu', :path => '../'
-
+  pod 'HXDropMenu', :path => '/Users/haixiao/Desktop/OCDevelopment/HXDropMenu'
+  pod 'HXTool'
   target 'HXDropMenu_Tests' do
     inherit! :search_paths
 
