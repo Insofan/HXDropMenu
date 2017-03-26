@@ -20,9 +20,34 @@ it, simply add the following line to your Podfile:
 pod "HXDropMenu"
 ```
 
+## Preview
+
+![PRVGn.gif](http://storage1.imgchr.com/PRVGn.gif)
+
+## Usage
+
+1. Set table titles 
+
+```
+//Table data
+//下拉列表的数据
+NSArray *titles = @[@"First", @"Second", @"Third", @"Fourth", @"Fifth",@"Sixed", @"Seventh", @"Eighth"];
+```
+
+2.Init HXDropMenu
+
+```
+//Init HXDropMenu
+//初始化HXDropMenu
+HXDropMenu *menuView = [[HXDropMenu alloc] initWithFrame:CGRectMake(0, 0,100, 44) titles:titles];
+//Set width
+menuView.width = 400;    
+self.navigationItem.titleView = menuView;
+```
+
 ## Author
 
-Insofan, 282132315@qq.com
+Insofan, insofan3156@gmail.com
 
 ## License
 
