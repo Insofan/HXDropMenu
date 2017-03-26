@@ -1,6 +1,6 @@
 {
   "name": "HXDropMenu",
-  "version": "0.1.0",
+  "version": "0.1.4",
   "summary": "My drop menu.",
   "description": "Drop menu framework.",
   "homepage": "https://github.com/Insofan/HXDropMenu",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/Insofan/HXDropMenu.git",
-    "tag": "0.1.0"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "8.0"
@@ -21,7 +21,7 @@
   "source_files": "HXDropMenu/Classes/**/*",
   "resource_bundles": {
     "HXDropMenu": [
-      "HXDropMenu/Assets/*.png"
+      "HXDropMenu/Assets/**/*"
     ]
   },
   "frameworks": "UIKit",

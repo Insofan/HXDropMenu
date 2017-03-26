@@ -315,6 +315,9 @@ static const CGFloat HXDropMenuAutoHideHeight = 44;
 - (UIImageView *)arrowImageView {
     //加载箭头图片
     if (!_arrowImageView) {
+        //注意podspec的写法 s.resource_bundles = {
+        //'HXDropMenu' => ['HXDropMenu/Assets/**/*']
+        //     }
         NSString *bundlePath = [[NSBundle bundleForClass:[HXDropMenu class]]
                                 pathForResource:@"HXDropMenu" ofType:@"bundle"];
         NSBundle *bundle = [NSBundle bundleWithPath:bundlePath];

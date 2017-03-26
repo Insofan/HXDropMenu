@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HXDropMenu'
-  s.version          = '0.1.1'
+  s.version          = '0.1.4'
   s.summary          = 'My drop menu.'
 
 # This description is used to generate tags and improve search results.
@@ -33,7 +33,7 @@ Drop menu framework.
   s.source_files = 'HXDropMenu/Classes/**/*'
   
 s.resource_bundles = {
- 'HXDropMenu' => ['HXDropMenu/Assets/*']
+ 'HXDropMenu' => ['HXDropMenu/Assets/**/*']
  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

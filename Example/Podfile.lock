@@ -1,5 +1,5 @@
 PODS:
-  - HXDropMenu (0.1.0):
+  - HXDropMenu (0.1.4):
     - Masonry
   - HXTool (0.1.0)
   - Masonry (1.0.2)
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
     :path: "/Users/haixiao/Desktop/OCDevelopment/HXDropMenu"
 
 SPEC CHECKSUMS:
-  HXDropMenu: 98a0379339edca6595214a62b1829e860d4752ed
+  HXDropMenu: 4a22ca9fd7f03a4812d65f8c8ee012c4759364ec
   HXTool: 2f032c24355ffb175b32b0ba0dba719152a67a66
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
 
